@@ -1,6 +1,9 @@
-<!-- <h1 align="center">
-  <img width="300px"  src=".github/logo.svg" />
-</h1> -->
+<h1 align="center">
+  <img width="300px" src=".github/logo-light.svg#gh-light-mode-only" />
+  <img width="300px" src=".github/logo-dark.svg#gh-dark-mode-only" />
+</h1>
+
+<br />
 
 <p align="center">
   <img alt="GitHub" src="https://img.shields.io/github/license/EliasGcf/event-platform?color=%2300B37E">

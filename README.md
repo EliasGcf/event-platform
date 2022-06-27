@@ -1,6 +1,6 @@
 <h1 align="center">
-  <img width="300px" src=".github/logo-light.svg#gh-light-mode-only" />
-  <img width="300px" src=".github/logo-dark.svg#gh-dark-mode-only" />
+  <img width="250px" src=".github/logo-light.svg#gh-light-mode-only" />
+  <img width="250px" src=".github/logo-dark.svg#gh-dark-mode-only" />
 </h1>
 
 <br />

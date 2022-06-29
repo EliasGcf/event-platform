@@ -1,9 +1,13 @@
 import { FormEvent, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Logo } from "../components/Logo";
-import { useCreateSubscriberMutation } from "../graphql/generated";
+import { CircleNotch } from "phosphor-react";
 
 import CodeMockupImg from '../assets/code-mockup.png';
+
+import { useCreateSubscriberMutation } from "../graphql/generated";
+
+import { Logo } from "../components/Logo";
+
 
 export function Subscribe() {
   const navigate = useNavigate()
@@ -60,9 +64,13 @@ export function Subscribe() {
             <button
               type="submit"
               disabled={loading}
-              className="mt-4 bg-green-500 uppercase py-4 rounded font-bold text-sm hover:bg-green-700 transition-colors disabled:opacity-50"
+              className="flex mt-4 h-14 bg-green-500 uppercase py-4 rounded font-bold text-sm enabled:hover:bg-green-700 transition-colors disabled:opacity-50 items-center justify-center"
             >
-              Garantir minha vaga
+              {loading ? (
+                <CircleNotch className="animate-spin" size={24} />
+              ) : (
+                'Garantir minha vaga'
+              )}
             </button>
           </form>
         </div>
